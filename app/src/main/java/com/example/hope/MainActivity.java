@@ -7,8 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.denzcoskun.imageslider.ImageSlider;
-import com.denzcoskun.imageslider.models.SlideModel;
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -28,16 +27,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
 
-        ImageSlider imageSlider = findViewById(R.id.imgslider);
 
-
-        List<SlideModel> slideModels=new ArrayList<>();
-        slideModels.add(new SlideModel(R.drawable.background,"Happiness,It is not how much we have,but how much we enjoy,that makes happiness"));
-        slideModels.add(new SlideModel(R.drawable.groupo,"Optimism,The basis of optimism is sheer terror!"));
-        slideModels.add(new SlideModel(R.drawable.groupt,"Patience,To get what you love you must first be patient with what you hate"));
-        slideModels.add(new SlideModel(R.drawable.groupf));
-
-        imageSlider.setImageList(slideModels,false);
 
 
 
